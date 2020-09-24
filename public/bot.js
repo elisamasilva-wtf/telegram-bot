@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const op = require('./myaction.js');
 // Substitua o valor abaixo pelo token de telegrama que você recebe de @BotFather
-const token = '1297260365:AAGmjpv-tz1TvqvaPTGZi-byRU_xtR6iqaw';
+const token = 'Token';
 
 // Crie um bot que usa 'polling' para buscar novas atualizações
 const bot = new TelegramBot(token, { polling: true });
