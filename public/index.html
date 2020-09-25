@@ -32,20 +32,16 @@
     </div>
 
     <!-- Input and button send -->
-    <form  action="javascript: responseMsg();" class="row" id="form">
+    <form action="javascript: void(0);" class="row" id="form">
       <input
         id="sendMsg"
         placeholder="Message..."
         type="text"
         class="form-control message-input col-7 col-sm-8 col-md-10"
       />
-      <input type="submit" class="btn btn-primary submit-btn col-5 col-sm-4 col-md-2"
-      value="Enviar"
-      >
-        
-    </input>
+      <button id="send-button" type="submit" class="btn btn-primary submit-btn col-5 col-sm-4 col-md-2" >Enviar</button>
+    </button>
     </form>
     <script src="bundle.js"></script>
-    <script src="myaction.js"></script>
   </body>
 </html>
