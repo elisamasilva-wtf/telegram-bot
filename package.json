@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx watchify public/bot.js -o public/bundle.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
     "express": "^4.17.1",
     "node-telegram-bot-api": "^0.50.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "watchify": "^3.11.1"
+  }
 }
